@@ -16,4 +16,4 @@ constructor 객체 입장에서 자신을 생성한 객체를 가르킴
 prototype chain
 자바스크립트는 특정 객체의 프로퍼티나 메소드에 접근할때 해당 객체에 해당 프로퍼티나 메소드가 없으면 __proto__를 따라 올라가며 검색한다.
 
-(<http://ginsum.github.io/images/2019-09-23-01.png>)
+![](<http://ginsum.github.io/images/2019-09-23-01.png>)

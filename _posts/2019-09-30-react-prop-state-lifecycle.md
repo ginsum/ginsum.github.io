@@ -12,16 +12,64 @@ comments: true
 
 componet 정의 방법
 1. javaScript 함수 작성
+```javascript
+function Welcome(props){
+      return <h1>Hello, {props.name}</h1>
+}
+```
 2. ES6 class 사용하기
+```javascript
+class Welcome extens React.Component{
+        render() {
+             return <h1> Hello, {this.props.name}</h1>
+        }
+}
+```
 <br/>
 
+
+
 ### props
+```javascript
+const Todolist = (prop =>{
+    <div>{props.todo}</div>
+})
+
+cosnt App = () =>(
+    <div>
+        <h2> My TodoList </h2>
+        <Todolist todo = 'learn React' />
+    </div>
+);
+```
+
 - 부모 component가 자식 component 에게 주는 값
 - 자식 component는 props를 받아오기만 하고 받아온 props를 직접 수정할 수는 없음
 - class 문법 사용할때는 자식의 constructor 안에 super(props)를 작성해야 함
 <br/>
 
 ### state
+```javascript
+class counter extends React.Component {
+ state = {
+     number : 0
+ }
+ handleIncrease = () => {
+      this.setState ({
+        number : this.state.number +1
+      })
+ }
+ render(){
+ return (
+     <div>
+     <h1> counter</h1>
+     <div> {this.state.number}</div>
+     <button onClick = {this.handleIncrease}> + </button>
+    )
+  }
+}
+```
+
 - 동적 데이터를 다룰 때 사용한다
 - class 문법을 사용해 정의 한다
 - constructor 안에 설정할 수 있다

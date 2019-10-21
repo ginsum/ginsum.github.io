@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "Node.js -"
+title : "Node.js -require / exports /EventEmitter / Stream"
 comments: true
 ---
 
@@ -33,5 +33,12 @@ V8엔진으로 만들어진 자바스크립트 런타임
 <br/>
 <br/>
 
-### Stream
+### Stream 방식
+
+- 파일안의 데이터를 덩어리(chunk)로 잘게 쪼개 데이터의 stream 에 얹어서 읽어들이는 방식
+- 메로리나 속도 측면에서 효율적
+- Buffer로 수집됨
+- createReadStream / createWriteStream
+
+
 

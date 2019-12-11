@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "first project Foodo"
+title : project Foodo"
 comments: true
 ---
 [first project 회고]

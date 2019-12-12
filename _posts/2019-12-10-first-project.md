@@ -1,6 +1,6 @@
 ---
 layout : post
-title : [project] Foodo - 냉장고 재고 관리 웹 어플리케이션
+title : project- Foodo - 냉장고 재고 관리 웹 어플리케이션
 comments: true
 ---
 [first project 회고]

@@ -1,6 +1,6 @@
 ---
 layout : post
-title : [project] 서로모임 - 서평과 책 큐레이션을 작성하고 공유하는 웹 서비스 Part1
+title : project- 서로모임 - 서평과 책 큐레이션을 작성하고 공유하는 웹 서비스 Part1
 comments: true
 ---
 [final project 회고]

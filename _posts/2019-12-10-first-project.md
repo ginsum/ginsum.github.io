@@ -4,10 +4,10 @@ title : project- Foodo - 냉장고 재고 관리 웹 어플리케이션
 comments: true
 ---
 [first project 회고]
-### Foodo - 냉장고 재고 관리 웹 어플리케이션
-
 <br/>
----
+<br/>
+### Foodo
+
 - 냉장고의 식재료들을 기억하여 관리하기 어렵다는 것에서 출발한 프로젝트
 - 재고를 한눈에 볼수 있으며, 재고 추가수정삭제가 가능하며, 수량 조절 가능, 유통기한 표기하여 사용자 편의성을 높였다.
 - 해당 재료들을 바탕으로 요리 가능한 메뉴 추천 기능까지 구현 목표 -> 유투브 API 통해 추천 리스트 보여주었다.
@@ -16,7 +16,7 @@ comments: true
 <br/>
 <br/>
 ---
-#### [back-end]
+#### [back-end] - stack
 <br/>
 node.js, express, sequelize, mysql
 <br/>
@@ -24,7 +24,7 @@ node.js, express, sequelize, mysql
 ---
 #### 서비스 소개
 <br/>
-https://slides.com/bangsil/deck-3#/2
+[https://slides.com/bangsil/deck-3#/2](https://slides.com/bangsil/deck-3#/2)
 <br/>
 <br/>
 
@@ -76,7 +76,8 @@ sequelize로 각각 테이블별로 Models 파일을 만들고 user-indegrients 
 
 냉장고 재고 현황을 시각적으로 볼 수 있게 chart.js를 사용해 보았다. 재고 수량을 그래프로, 재고 상태를 색상으로 나타내 볼수있게 하였다. g과 갯수 단위가 다른데 분리하지 못했던 아쉬움이 있다.
 
-
+<br/>
+<br/>
 ---
 처음 설계부터 구현까지 서버와 DB의 구조를 생각해 볼 수 있는 시간이었다. 나중에 수량 단위나, 재고 상태 등의 필드가 추가 된 것들이 있어도 테이블에 추가하기 용이했던 점이 좋았다. 다만 기능들이 추가될때 client 팀원분들과 소통을 바로바로 하지 못했고, 그로 인해 생긴 에러로 시간을 많이 쏟았던 것이 아쉬운 점으로 남아있다. 
 

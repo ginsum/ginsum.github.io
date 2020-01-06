@@ -1,32 +1,38 @@
 ---
 layout : post
-title : "사이드프로젝트01 - react native navigation01(4.x 버전)"
+title : "사이드프로젝트01-1 - react native navigation01(next 버전)"
 comments: true
 ---
 
 ### 리액트 네이티브 - 네비게이션 설치 
 
-(이전 버선 설치해서 next 버전으로 다시 설치했습니다. 다음 글을 참고해주세요.)
+(이전 버선 설치해서 next 버전으로 다시 설치했습니다.)
 <br/>
 <br/>
 ##### install
 
-[참고 페이지]("https://reactnavigation.org/docs/en/getting-started.html")
+[참고 페이지]("https://reactnavigation.org/docs/en/next/getting-started.html")
 
 <br/>
 <br/>
 ```
-yarn add react-navigation
-
+yarn add @react-navigation/native@next
 ```
 
-expo 사용하지 않고 진행하고 있기 때문에 아래같이 추가 설치
+createStackNavigator 을 위한 사용하기 위해 설치
 
 <br/>
 ```
-yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context
+yarn add @react-navigation/native@next @react-navigation/stack@next @react-native-community/masked-view
 
 ```
+Now we need to install react-native-gesture-handler, react-native-screens and react-native-safe-area-context
+<br/>
+expo 사용 안해서 다음과 같이 설치
+```
+yarn add react-native-gesture-handler react-native-screens react-native-safe-area-context
+```
+
 <br/>
 React Native 0.60 and higher
 android/app/build.gradle 파일에 추가
@@ -72,15 +78,17 @@ public class MainActivity extends ReactActivity {
 ```
 <br/>
 <br/>
-마지막에 에러코드 떠서 추가 설치
+
+createBottomTabNavigator
 
 ```
-npm i @react-native-community/masked-view
-
+yarn add @react-navigation/native@next @react-navigation/bottom-tabs@next
 ```
+
 <br/>
 <br/>
--> Stack Navigator 는 잘 뜨는 것을 확인
+
+-> stack 과 botoomtap 네비까지 설치 
 
 
 

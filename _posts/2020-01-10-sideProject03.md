@@ -13,8 +13,7 @@ comments: true
 
 [참고 페이지]("https://reactnavigation.org/docs/en/next/stack-navigator.html")
 
-<br/>
-<br/>
+
 ```
 import {createStackNavigator} from '@react-navigation/stack';
 
@@ -28,13 +27,12 @@ function LoginStack() {
   );
 }
 ```
-
+<br/>
+<br/>
 ##### Bottom Tab navigation
 
 [참고 페이지]("https://reactnavigation.org/docs/en/next/bottom-tab-navigator.html")
 
-<br/>
-<br/>
 ```
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 const Tab = createBottomTabNavigator();
@@ -49,12 +47,13 @@ const HomeTab = () => {
 };
 ```
 
+<br/>
+<br/>
 ##### Navigation Container
 
 [참고페이지]("https://reactnavigation.org/docs/en/next/hello-react-navigation.html")
 
-<br/>
-<br/>
+
 ```
 import * as React from 'react';
 import { View, Text } from 'react-native';
